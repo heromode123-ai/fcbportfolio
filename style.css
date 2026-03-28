@@ -1,0 +1,58 @@
+.container{
+	/* background: gray; */
+}
+
+* {
+	 font-family: "Romanesco", cursive;
+	text-align: justify;
+}
+
+h1, p{
+  font-family: "Romanesco", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+background-color: #04087E;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg fill-opacity='0.36'%3E%3Ccircle fill='%2304087E' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23473093' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%237056a8' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%23957ebd' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23b9a8d2' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23DCD4E7' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+}
+
+ #image-style {
+ 	height: 250px;
+ 	width: 250px;
+
+ 	border-radius: 30%; /* the More percentage is used the rounder the edges become */
+}
+
+#landing{
+height: 90vh;
+display: flex;
+flex-direction: column;
+
+justify-content: center;
+align-items: center;
+}
+
+footer{
+	background-color: black;
+
+	padding: 10px;
+	text-align: center;
+}
+
+i{
+	font-size: 25px;
+
+	color: white;
+
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+i:hover{
+	color: dimgray	;
+}
